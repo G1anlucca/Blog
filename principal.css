@@ -121,7 +121,7 @@ body {
         
         
         .box1{
-            background-image: image-set(url(../Imagenes/got1.png));background-size: cover;
+           
             filter: contrast(40%);          
         }
         .box2{
