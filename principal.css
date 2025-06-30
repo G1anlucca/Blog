@@ -120,12 +120,15 @@ body {
         }
         
         
-        .box1{
-           
+        .container .box1{
+            background-image: image-set(url(../Imagenes/FondoAV.jpg));
+            background-size: cover;
             filter: contrast(40%);          
         }
         .box2{
-            background-image: image-set(url(../Imagenes/cs.png));background-size: cover;background-position-x:-40px;
+            background-image: image-set(url(../Imagenes/cs.png));
+            background-size: cover;
+            background-position-x:-40px;
             filter: contrast(40%);
         }
         .box3{
