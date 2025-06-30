@@ -120,7 +120,33 @@ body {
             transform: scale(1.1);
             transition:  transform 0.3s;
         }
-
+     .box1{
+            background-image: image-set(url(Imagenes/FondoAV.jpg));
+            background-size: cover;
+            filter: contrast(40%);          
+        }
+        .box2{
+            background-image: image-set(url(Imagenes/cs.png));
+            background-size: cover;
+            background-position-x:-40px;
+            filter: contrast(40%);
+        }
+        .box3{
+            background-image: image-set(url(Imagenes/wow.png)); background-size: cover;
+            filter: contrast(40%)
+        }
+        .box4{
+            background-image: image-set(url(Imagenes/fc25.png)); background-size: cover;
+            filter: contrast(40%);
+        }
+        .box5{
+            background-image: image-set(url(Imagenes/aoe.png)); background-size: cover; background-position-x:-25px ;
+            filter: contrast(40%);
+        }
+        .box6{
+            background-image: image-set(url(Imagenes/out.png)); background-size: cover;
+            filter: contrast(40%);
+        }
 
     footer {
     background-color: black;
